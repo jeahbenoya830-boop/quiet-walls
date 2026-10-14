@@ -8,7 +8,7 @@ export default function PrimaryButton({
         <button
             {...props}
             className={
-                `inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2.5 text-sm font-semibold text-white transition duration-150 ease-in-out hover:bg-indigo-700 focus:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 active:bg-indigo-800 ${
+                `inline-flex items-center justify-center rounded-md border border-transparent bg-[#24231f] px-4 py-2.5 text-sm font-semibold text-white transition duration-150 ease-in-out hover:bg-[#49463e] focus:bg-[#49463e] focus:outline-none focus:ring-2 focus:ring-[#8d543f] focus:ring-offset-2 active:bg-[#39372f] ${
                     disabled ? 'cursor-not-allowed opacity-50' : ''
                 } ` + className
             }

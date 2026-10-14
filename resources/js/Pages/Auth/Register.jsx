@@ -25,19 +25,19 @@ export default function Register() {
         <GuestLayout>
             <Head title="Create Account" />
 
-            <div className="min-h-screen bg-gray-50 px-4 py-12 sm:px-6 lg:px-8">
+            <div className="min-h-screen px-4 py-12 sm:px-6 lg:px-8">
                 <div className="mx-auto max-w-md">
 
                     <div className="mb-8 text-center">
                         <Link
                             href="/"
-                            className="text-2xl font-bold text-indigo-600"
+                            className="text-2xl font-bold text-[#24231f]"
                         >
-                            IT Support Desk
+                            quiet walls
                         </Link>
 
-                        <p className="mt-4 text-sm font-semibold uppercase tracking-widest text-indigo-600">
-                            Computer Lab Diagnostics
+                        <p className="mt-4 text-sm font-semibold uppercase tracking-widest text-[#8d543f]">
+                            A space of your own
                         </p>
 
                         <h1 className="mt-2 text-3xl font-bold text-gray-900">
@@ -45,7 +45,7 @@ export default function Register() {
                         </h1>
 
                         <p className="mt-2 text-sm text-gray-500">
-                            Register to report and manage laboratory equipment issues.
+                            Create an account to get your own anonymous message wall.
                         </p>
                     </div>
 
@@ -159,7 +159,7 @@ export default function Register() {
                             <div className="border-t border-gray-200 pt-5">
 
                                 <PrimaryButton
-                                    className="w-full justify-center bg-indigo-600 py-3 text-sm font-semibold hover:bg-indigo-700 focus:bg-indigo-700 active:bg-indigo-800"
+                                    className="w-full justify-center bg-[#24231f] py-3 text-sm font-semibold hover:bg-[#49463e] focus:bg-[#49463e] active:bg-[#39372f]"
                                     disabled={processing}
                                 >
                                     {processing
@@ -171,7 +171,7 @@ export default function Register() {
                                     Already have an account?{' '}
                                     <Link
                                         href={route('login')}
-                                        className="font-semibold text-indigo-600 hover:text-indigo-800"
+                                        className="font-semibold text-[#8d543f] hover:text-[#693d2e]"
                                     >
                                         Log In
                                     </Link>
@@ -186,9 +186,9 @@ export default function Register() {
                     <div className="mt-6 text-center">
                         <Link
                             href="/"
-                            className="text-sm font-medium text-gray-500 hover:text-indigo-600"
+                            className="text-sm font-medium text-gray-500 hover:text-[#8d543f]"
                         >
-                            Back to IT Support Desk
+                            Back to quiet walls
                         </Link>
                     </div>
 

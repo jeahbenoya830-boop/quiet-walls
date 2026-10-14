@@ -24,27 +24,27 @@ export default function Login({ status, canResetPassword }) {
         <GuestLayout>
             <Head title="Log In" />
 
-            <div className="min-h-screen bg-gray-50 px-4 py-12 sm:px-6 lg:px-8">
+            <div className="min-h-screen px-4 py-12 sm:px-6 lg:px-8">
                 <div className="mx-auto max-w-md">
 
                     <div className="mb-8 text-center">
                         <Link
                             href="/"
-                            className="text-2xl font-bold text-indigo-600"
+                            className="text-2xl font-bold text-[#24231f]"
                         >
-                            IT Support Desk
+                            quiet walls
                         </Link>
 
-                        <p className="mt-4 text-sm font-semibold uppercase tracking-widest text-indigo-600">
-                            Computer Lab Diagnostics
+                        <p className="mt-4 text-sm font-semibold uppercase tracking-widest text-[#8d543f]">
+                            Your private inbox
                         </p>
 
                         <h1 className="mt-2 text-3xl font-bold text-gray-900">
-                            Welcome Back
+                            Welcome back
                         </h1>
 
                         <p className="mt-2 text-sm text-gray-500">
-                            Log in to access the equipment issue management system.
+                            Log in to read the messages on your quiet wall.
                         </p>
                     </div>
 
@@ -122,7 +122,7 @@ export default function Login({ status, canResetPassword }) {
                                                 e.target.checked
                                             )
                                         }
-                                        className="rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500"
+                                        className="rounded border-gray-300 text-[#8d543f] shadow-sm focus:ring-[#8d543f]"
                                     />
 
                                     <span className="ms-2 text-sm text-gray-600">
@@ -133,7 +133,7 @@ export default function Login({ status, canResetPassword }) {
                                 {canResetPassword && (
                                     <Link
                                         href={route('password.request')}
-                                        className="text-sm font-medium text-indigo-600 hover:text-indigo-800"
+                                        className="text-sm font-medium text-[#8d543f] hover:text-[#693d2e]"
                                     >
                                         Forgot password?
                                     </Link>
@@ -154,7 +154,7 @@ export default function Login({ status, canResetPassword }) {
                                     Don't have an account?{' '}
                                     <Link
                                         href={route('register')}
-                                        className="font-semibold text-indigo-600 hover:text-indigo-800"
+                                        className="font-semibold text-[#8d543f] hover:text-[#693d2e]"
                                     >
                                         Create an Account
                                     </Link>
@@ -169,9 +169,9 @@ export default function Login({ status, canResetPassword }) {
                     <div className="mt-6 text-center">
                         <Link
                             href="/"
-                            className="text-sm font-medium text-gray-500 hover:text-indigo-600"
+                            className="text-sm font-medium text-gray-500 hover:text-[#8d543f]"
                         >
-                            Back to IT Support Desk
+                            Back to quiet walls
                         </Link>
                     </div>
 
